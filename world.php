@@ -1,8 +1,6 @@
 <?php
-
 error_reporting(0);
-
-
+header('Access-Control-Allow-Origin: *');
 $host = 'localhost';
 $username = 'lab5_user';
 $password = 'password123';
